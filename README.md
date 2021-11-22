@@ -20,7 +20,7 @@ limitations under the License.
 
 # sabs2
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the [squared absolute value][@stdlib/math/base/special/abs2f] for each element in a single-precision floating-point strided array.
 
@@ -297,6 +297,24 @@ int main() {
 
 <!-- /.c -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math/strided/special/abs2`][@stdlib/math/strided/special/abs2]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value for each element in a strided array.</span>
+-   <span class="package-name">[`@stdlib/math/strided/special/dabs2`][@stdlib/math/strided/special/dabs2]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value for each element in a double-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/math/strided/special/sabs`][@stdlib/math/strided/special/sabs]</span><span class="delimiter">: </span><span class="description">compute the absolute value for each element in a single-precision floating-point strided array.</span>
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -340,8 +358,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-strided-special-sabs2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-strided-special-sabs2?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-strided-special-sabs2.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-strided-special-sabs2/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
@@ -355,6 +377,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f
+
+<!-- <related-links> -->
+
+[@stdlib/math/strided/special/abs2]: https://github.com/stdlib-js/math-strided-special-abs2
+
+[@stdlib/math/strided/special/dabs2]: https://github.com/stdlib-js/math-strided-special-dabs2
+
+[@stdlib/math/strided/special/sabs]: https://github.com/stdlib-js/math-strided-special-sabs
+
+<!-- </related-links> -->
 
 </section>
 
