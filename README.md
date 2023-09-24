@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sabs2@esm/index.mjs';
+import sabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sabs2@v0.1.0-esm/index.mjs';
 ```
 
 #### sabs2( N, x, strideX, y, strideY )
@@ -167,7 +167,7 @@ sabs2.ndarray( N, x, 2, 1, y, -1, y.length-1 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import sabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sabs2@esm/index.mjs';
+import sabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sabs2@v0.1.0-esm/index.mjs';
 
 var x = new Float32Array( 10 );
 var y = new Float32Array( 10 );
