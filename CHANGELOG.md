@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-04-14)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#6629](https://github.com/stdlib-js/stdlib/issues/6629)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`29ca435`](https://github.com/stdlib-js/stdlib/commit/29ca435769a12baf1fe73fe37119eccc2994974a) - **chore:** disable lint rule [(#6677)](https://github.com/stdlib-js/stdlib/pull/6677) _(by Dipjyoti Das)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +37,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Dipjyoti Das
 -   Philipp Burckhardt
 
 </section>
